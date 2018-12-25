@@ -1,29 +1,36 @@
 <!DOCTYPE html>
+<html>
+<head>
+  <script src="male.js"></script>
+</head>
   <body>
 <title>女性に求める条件</title>
+<h1>好みの女性</h1>
   <form>
+
 <p>求める身長は？</p>
-<select name="height">
-<option value="low">150未満</option>
-<option value="standard">150~159</option>
-<option value="hutuu">160以上</option>
+<select id="height">
+<option value="low">160未満</option>
+<option value="standard">160~169</option>
+<option value="high">170~</option>
 </select></form>
 <form>
 <p>職業</p>
-<select name="job">
+<select id="job">
 <option value="ol">OL</option>
-<option value="self">自営業</option>
-<option value="free">フリーター</option>
 <option value="wife">専業主婦</option>
+<option value="student">学生</option>
 </select></form>
 <form>
 <p>年齢</p>
-<select name="age">
+<select id="age">
 <option value="teen">15~19</option>
 <option value="young">20~29</option>
-<option value="soso">30~39</option>
-<option value="old">40以上</option>
+<option value="soso">30~</option>
 </select></form>
-<input type
+<input type="button" value="あなたのベストパートナーは？" onclick="btnLink();">
+<p id="name"></p>
+<p id="age1"></p>
+<p id="hobby"></P>
   </body>
 </html>
