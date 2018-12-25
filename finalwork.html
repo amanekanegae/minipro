@@ -1,0 +1,29 @@
+<head>
+ <meta charset="utf-8">
+ <script type="text/javascript">
+ x = "出会い系サイトAMANEへようこそ!!男性は右、女性は左をクリックしてください。";
+ x = x + x + x;
+ y = 0;
+ function first(){
+  document.hello.announce.value = x.substring(y,x.length);
+  y = (y == (x.length/3)-1) ? 0 : y+1;
+ }
+ </script>
+</head>
+
+<form name="hello">
+ <input type="text" style="width:1000px; height:50px; font-size:large;" name="announce">
+</form>
+
+<script type="text/javascript">
+ setInterval("first()",200);
+</script>
+
+<body>
+ <a href="men.html" target="_blank">
+  <input type="button" value="男性の方はこちら" style="width:200px; height:40px; font-size:large; background-color:aqua;" onclick=>
+ </a>
+ <a href="women.html" target="_blank">
+  <input type="button" value="女性の方はこちら" style="width:200px; height:40px; font-size:large; background-color:pink;" onclick=>
+ </a>
+</body>

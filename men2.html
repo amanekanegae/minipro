@@ -1,0 +1,54 @@
+<head>
+<meta charset='utf-8'>
+<style type='text/css'>
+#tabbutton a{
+   display: inline-block;
+   padding: 0.5em 5em;
+   position: relative;
+}
+#body div{
+   margin-top: -16px;
+   padding: 10em;
+   position: relative;
+   z-index: 0;
+}
+#tabbutton a:nth-child(1), #body div:nth-child(1) { background-color: #33CCFF; }
+#tabbutton a:nth-child(2), #body div:nth-child(2) { background-color: #FF99CC; }
+#tabbutton a:nth-child(3), #body div:nth-child(3) { background-color: #33CC00; }
+</style>
+</head>
+<body>
+<p id="tabbutton">
+   <a href="btab1">プロフィール</a>
+   <a href="btab2">女性を検索</a>
+   <a href="btab3">検索履歴</a>
+</p>
+<div id="body">
+   <div id="tab1"></div>
+   <div id="tab2"></div>
+   <div id="tab3"></div>
+</div>
+<script type="text/javascript">
+var x = document.getElementById('tabbutton').getElementsByTagName('a');
+var y = document.getElementById('body').getElementsByTagName('div');
+function select() {
+var z = this.href.substring(this.href.indexOf('b')+1,this.href.length);
+for(var i=0; i<y.length; i++) {
+if(y[i].id != z){
+  y[i].style.display = "none";
+}else{
+  y[i].style.display = "block";
+}
+}
+for(var i=0; i<x.length; i++){
+  x[i].style.zIndex = "0";
+}
+this.style.zIndex = "10";
+return false;
+}
+for(var i=0; i<x.length; i++) {
+  x[i].onclick = select;
+}
+x[0].onclick();
+</script>
+</body>
