@@ -32,15 +32,15 @@ hobby.innerHTML ="ディズニー"
   hobby.innerHTML ="釣り"
 }  else if (height.value=="low" && job.value=="ko" && age.value=="soso"){
     name.innerHTML = "坂下翼　さん"
-    age1.innerHTML = "28歳"
+    age1.innerHTML = "42歳"
     hobby.innerHTML ="プログラミング"
   }  else if (height.value=="low" && job.value=="sa" && age.value=="soso"){
       name.innerHTML = "渡邊大河　さん"
-      age1.innerHTML = "39歳"
+      age1.innerHTML = "45歳"
       hobby.innerHTML ="古着"
     }  else if (height.value=="low" && job.value=="some" && age.value=="soso"){
         name.innerHTML = "宇野睦月　さん"
-        age1.innerHTML = "37歳"
+        age1.innerHTML = "43歳"
         hobby.innerHTML ="ゴルフ"
 
 }else if(height.value=="standard" && job.value=="ko" && age.value=="teen"){
@@ -49,7 +49,7 @@ hobby.innerHTML ="ディズニー"
   hobby.innerHTML = "剣道"
 } else if (height.value=="standard" && job.value=="ko" && age.value=="soso") {
   name.innerHTML = "尾崎祐介　さん"
-  age1.innerHTML = "32歳"
+  age1.innerHTML = "46歳"
   hobby.innerHTML = "柔道"
 }else if(height.value=="standard" && job.value=="ko" && age.value=="young"){
   name.innerHTML = "中村楓　さん"
@@ -65,7 +65,7 @@ hobby.innerHTML ="ディズニー"
     hobby.innerHTML = "ドラマ鑑賞"
 }else if(height.value=="standard" && job.value=="sa" && age.value=="soso"){
       name.innerHTML = "蓮実秀太　さん"
-      age1.innerHTML = "38歳"
+      age1.innerHTML = "54歳"
       hobby.innerHTML = "歌舞伎を観ること"
     }else if(height.value=="standard" && job.value=="some" && age.value=="teen"){
           name.innerHTML = "蓮実蓮　さん"
@@ -77,7 +77,7 @@ hobby.innerHTML ="ディズニー"
               hobby.innerHTML = "SASUKE"
             }else if(height.value=="standard" && job.value=="some" && age.value=="soso"){
                   name.innerHTML = "山本吉斗　さん"
-                  age1.innerHTML = "33歳"
+                  age1.innerHTML = "51歳"
                   hobby.innerHTML = "総合格闘技"
 
                 }else if(height.value=="high" && job.value=="ko" && age.value=="teen"){
@@ -90,7 +90,7 @@ hobby.innerHTML ="ディズニー"
                           hobby.innerHTML = "カラオケ"
                         }else if(height.value=="high" && job.value=="ko" && age.value=="soso"){
                               name.innerHTML = "君島邦夫　さん"
-                              age1.innerHTML = "31歳"
+                              age1.innerHTML = "42歳"
                               hobby.innerHTML = "野球観戦"
                             }else if(height.value=="high" && job.value=="sa" && age.value=="teen"){
                               name.innerHTML = "仙道新　さん"
@@ -102,7 +102,7 @@ hobby.innerHTML ="ディズニー"
                                 hobby.innerHTML = "サーフィン"
                             }else if(height.value=="high" && job.value=="sa" && age.value=="soso"){
                                   name.innerHTML = "瀬戸康史　さん"
-                                  age1.innerHTML = "33歳"
+                                  age1.innerHTML = "40歳"
                                   hobby.innerHTML = "合気道"
                                 }else if(height.value=="high" && job.value=="some" && age.value=="teen"){
                                       name.innerHTML = "横手悟　さん"
@@ -114,7 +114,7 @@ hobby.innerHTML ="ディズニー"
                                           hobby.innerHTML = "バレーボールの選手やってます！"
                                         }else if(height.value=="high" && job.value=="some" && age.value=="soso"){
                                               name.innerHTML = "奥村京　さん"
-                                              age1.innerHTML = "37歳"
-                                              hobby.innerHTML = "走り幅跳びやってます！"
+                                              age1.innerHTML = "46歳"
+                                              hobby.innerHTML = "走り幅跳びやってます！fit "
                                             }
 }
