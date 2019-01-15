@@ -1,6 +1,8 @@
 <head>
 <meta charset='utf-8'>
 <script src="male.js"></script>
+<script src="female.js"></script>
+<link rel="stylesheet" type="text/css" href="female.css">
 <script src="bbs.js"></script>
 <style type='text/css'>
 #tabbutton a:nth-child(1){
@@ -47,38 +49,38 @@
 <body>
 <p id="tabbutton">
    <a href="btab1">プロフィール</a>
-   <a href="btab2">女性を検索</a>
+   <a href="btab2">男性を検索</a>
    <a href="btab3">掲示板</a>
 </p>
 <div id="body">
    <div id="tab1"></div>
    <div id="tab2">
-   <h1>好みの女性</h1>
-   <form>
-   <p>求める身長は？</p>
-   <select id="height">
-   <option value="low">160未満</option>
-   <option value="standard">160~169</option>
-   <option value="high">170~</option>
-   </select></form>
-   <form>
-   <p>職業</p>
-   <select id="job">
-   <option value="ol">OL</option>
-   <option value="wife">専業主婦</option>
-   <option value="student">学生</option>
-   </select></form>
-   <form>
-   <p>年齢</p>
-   <select id="age">
-   <option value="teen">15~19</option>
-   <option value="young">20~29</option>
-   <option value="soso">30~</option>
-   </select></form>
-   <input type="button" value="あなたのベストパートナーは？" onclick="btnLink();">
-   <p id="name"></p>
-   <p id="age1"></p>
-   <p id="hobby"></P>
+  　 <h1>好みの男性 いい出会いがきっと待っている</h>
+     <form>
+　　　<p>求める身長は？</p>
+  　　<select id="height">
+  　　<option value="low">170未満</option>
+  　　<option value="standard">170~179</option>
+　　  <option value="high">180~</option>
+  　　</select></form>
+  　　<form>
+  　　<p>職業</p>
+  　　<select id="job">
+  　　<option value="ko">公務員</option>
+  　　<option value="sa">サラリーマン</option>
+　　  <option value="some">その他</option>
+  　　</select></form>
+  　　<form>
+  　　<p>年齢</p>
+  　　<select id="age">
+  　　<option value="teen">15~19</option>
+  　　<option value="young">20~39</option>
+  　　<option value="soso">40~</option>
+  　　</select></form>
+     <input type="button" value="あなたのベストパートナーは？" onclick="btnLink();">
+     <p id="name"></p>
+     <p id="age1"></p>
+     <p id="hobby"></P>
 </div>
 <div id="tab3">
    名前：<input type="text" id="name">
