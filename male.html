@@ -9,7 +9,23 @@
 <title>女性に求める条件</title>
 <h1>好みの女性 いい出会いがきっと待っている</h1>
   <form>
+  <p>あなたの家はどこ？</p>
 
+    <div id="map" style="width:620px; height:400px"></div>
+
+    <script type="text/javascript">
+    function initMap() {
+      var opts = {
+        zoom: 15,
+        center: new google.maps.LatLng(35.1239654, 136.9417741)
+      };
+      var map = new google.maps.Map(document.getElementById("map"), opts);
+    }
+    </script>
+
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=APIKey&callback=initMap">
+    </script>
 <p>求める身長は？</p>
 <select id="height">
 <option value="low">160未満</option>
@@ -36,6 +52,6 @@
 <p id="hobby"></P>
 <img src="r.jpg">
 <img src="73bcf5ae23fc2aa073d4d3842f6bb5.jpg ">
-<img src="Unknownのコピー2.jpeg"
+<img src="Unknownのコピー2.jpeg"
   </body>
 </html>
